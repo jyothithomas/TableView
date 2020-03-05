@@ -13,6 +13,8 @@
 		4724E54C24108ACA00C2A73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4724E54A24108ACA00C2A73A /* Main.storyboard */; };
 		4724E54E24108ACB00C2A73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4724E54D24108ACB00C2A73A /* Assets.xcassets */; };
 		4724E55124108ACB00C2A73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4724E54F24108ACB00C2A73A /* LaunchScreen.storyboard */; };
+		4724E559241092F500C2A73A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4724E558241092F500C2A73A /* Country.swift */; };
+		4738850C2411BD5500C66085 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738850B2411BD5500C66085 /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4724E54D24108ACB00C2A73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4724E55024108ACB00C2A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4724E55224108ACB00C2A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4724E558241092F500C2A73A /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4738850B2411BD5500C66085 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4724E54D24108ACB00C2A73A /* Assets.xcassets */,
 				4724E54F24108ACB00C2A73A /* LaunchScreen.storyboard */,
 				4724E55224108ACB00C2A73A /* Info.plist */,
+				4724E558241092F500C2A73A /* Country.swift */,
+				4738850B2411BD5500C66085 /* DataStorage.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4724E559241092F500C2A73A /* Country.swift in Sources */,
 				4724E54924108ACA00C2A73A /* ViewController.swift in Sources */,
+				4738850C2411BD5500C66085 /* DataStorage.swift in Sources */,
 				4724E54524108ACA00C2A73A /* AppDelegate.swift in Sources */,
 				4724E54724108ACA00C2A73A /* SceneDelegate.swift in Sources */,
 			);
