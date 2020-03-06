@@ -50,4 +50,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate
         cell?.imageView?.image = country.flag
         return cell!
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let c = countryNames[indexPath.row]
+        print(c.name)
+    }
 }
